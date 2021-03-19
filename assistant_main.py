@@ -6,6 +6,7 @@ import os
 import random  #used in images
 from PIL import Image # Python Imaging Library
 
+
 #importing my files 
 from module1.my_functions import speak
 from module1.my_functions import takeCommand
