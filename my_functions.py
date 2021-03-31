@@ -59,8 +59,6 @@ def takeCommand():
 
 #*************************************************************************************************
 
-#janet
-
 def find_file_name(drive, filename):
     #this will find all files in the drive
     f = []      #List which has all files name
@@ -111,12 +109,6 @@ def get_category():
     speak(f"Searching {categories} related images")
     return categories
 
-
-#*************************************************************************************************
-def load_model(categories):
-    pass
-
-#print(load_model(['dog','butterfly']))
 #*************************************************************************************************
 
 #*************************************************************************************************
